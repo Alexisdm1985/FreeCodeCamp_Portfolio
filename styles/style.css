@@ -641,7 +641,111 @@ section{
     line-height: 2rem;
     padding-bottom: 1rem;
 }
+/* --- */
 
+
+
+
+
+/* || Contact || */
+
+.contact-content-cont {
+    display: flex;
+    padding-top: 3.5rem;
+}
+.contact-content-cont .left-contact {
+    flex: 2;
+}
+.left-contact h4 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.left-contact p {
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+.contact-info .contact-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-info .contact-item p{
+    margin: .3rem 0 !important;
+    padding: 0 !important;
+}
+.contact-item .icon{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.contact-item .icon i{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.contact-icons .contact-icon {
+    display: flex;
+    margin-top: 2rem;
+}
+.contact-icons .contact-icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-grey-5);
+    cursor: pointer;
+    color: var(--color-white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    margin: 0 .4rem;
+}
+.contact-icons .contact-icon a:hover {
+    background-color: var(--color-secondary);
+    
+}
+.contact-icons .contact-icon a:hover i{
+    color: var(--color-primary);
+}
+.contact-icons .contact-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+/* right content */
+.contact-content-cont .right-contact {
+    flex: 3;
+    margin-left: 3rem;
+}
+.input-control {
+    margin: 1.5rem 0;
+}
+.input-control input,
+.input-control textarea {
+    width: 100%;
+    padding: .8rem 1.1rem;
+    background-color: var(--color-grey-5);
+    color: var(--color-white);
+    border-radius: 30px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    resize: none;
+}
+.i-c-flex {
+    display: flex;
+}
+.i-c-flex input:last-of-type {
+    margin-left: 1.5rem;
+}
+.submit-btn {
+    display: flex;
+    justify-content: flex-start;
+}
 /* --- */
 
 @media (max-width: 1434px){
