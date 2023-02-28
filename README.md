@@ -4,6 +4,8 @@
     - Usamos un CDN de https://cdnjs.com/libraries/font-awesome
 
 - Animate library: https://animate.style/
+- Remove.bg !!!
+- clip path maker !
 
 
 1) Import font and set *|body{}
