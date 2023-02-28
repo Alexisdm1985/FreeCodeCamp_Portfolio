@@ -9,8 +9,8 @@
 1) Import font and set *|body{}
 2) Create variables :root{ (--varName: color); }
 3) Switch betweens sections:
-    - Create 4 sections and set position: absolute
-    - Set all sections with transform: translateY(-100%) AND scale(0) u get it?
-    - each should has/have another class to switch between active section
-    - create buttons with icons that means the sections (representate sections???) #######
+    - Create classes that can be add/remove to get the active btn/section
+    - Create an animation when switch section
     
+
+ACTUALLY https://youtu.be/xV7S8BhIeBo?t=2674

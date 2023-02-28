@@ -59,16 +59,50 @@ section{
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
 }
-.sec1,
-.sec2,
-.sec3,
-.sec4,
+.sec1 {
+    display: none;
+    transform: translateY(0) scale(1);
+    background-color: var(--color-primary);
+}
+.sec2 {
+    display: none;
+    transform: translateY(0) scale(1);
+    background-color: var(--color-grey-1);
+}
+.sec3 {
+    display: none;
+    transform: translateY(0) scale(1);
+    background-color: var(--color-grey-3);
+}
+.sec4 {
+    display: none;
+    transform: translateY(0) scale(1);
+    background-color: var(--color-grey-6);
+}
 .sec5 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: var(--color-secondary);
 }
 
-/* Controls */
+
+/* Switch sections/buttons animation */
+@keyframes scaleAnim {
+    0% {
+        transform: translateY(-100%) scaleY(0);
+    }
+    100% {
+        transform: translateY(0) scaleY(1);
+    }
+}
+
+.active {
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+}
+
+
+/* Controls = Buttons */
 .controlls{
     position: fixed;
     z-index: 10;
