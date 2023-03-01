@@ -1,7 +1,6 @@
 # My first practice portfolio with HTML/CSS/JS only
 This is my first portfolio project (just an excercise tho) along with a freecodecamp youtube tutorial !
-All the content is just an example and is not real information.
-
+All the content is just an example and is not real information, here's the [project](https://alexisdm1985.github.io/FreeCodeCamp_Portfolio/).
 ## What I learned
 
 - Css layouts as grid and flexbox
