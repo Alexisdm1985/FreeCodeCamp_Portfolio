@@ -1,18 +1,25 @@
-- from freecodecamp = https://www.youtube.com/watch?v=xV7S8BhIeBo&ab_channel=freeCodeCamp.org
-- FONT AWESOME: es un conjunto de herramientas de fuentes e íconos basado en CSS 
-    - https://fontawesome.com/
-    - Usamos un CDN de https://cdnjs.com/libraries/font-awesome
+# My first practice portfolio with HTML/CSS/JS only
+This is my first portfolio project (just an excercise tho) along with a freecodecamp youtube tutorial !
+All the content is just an example and is not real information.
 
-- Animate library: https://animate.style/
-- Remove.bg !!!
-- clip path maker !
+## What I learned
 
+- Css layouts as grid and flexbox
+- Css animations
+- Basic DOM manipulation
+- How to toggle a theme
+- Css selectors
 
-1) Import font and set *|body{}
-2) Create variables :root{ (--varName: color); }
-3) Switch betweens sections:
-    - Create classes that can be add/remove to get the active btn/section
-    - Create an animation when switch section
-    
+## Features
 
-ACTUALLY https://youtu.be/xV7S8BhIeBo?t=4137
+- Change theme mode
+- Animations when switch between sections
+
+## Future features
+
+- Contact form functionality
+- Download cv buttons functionality
+
+## Credits
+- [The Code Dealer](https://www.youtube.com/channel/UCn5s7JYuccuKDXN5Mo2XK5Q) as the author of this project
+- [FreeCodeCamp Youtube Channel](https://youtu.be/xV7S8BhIeBo)
