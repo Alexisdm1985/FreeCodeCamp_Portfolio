@@ -2,12 +2,21 @@ const allSections = document.querySelector('.main-content');
 const sections = document.querySelectorAll('.section');
 const sectBtns = document.querySelectorAll('.controlls');
 const sectBtn = document.querySelectorAll('.control');
+const theme = document.querySelector('.theme-btn');
 
+// Page transitions
 function pageTransitions(){
     // Button click event
     activeBtn();
+
     // Sections Active
     activeSection();
+    
+    // Theme Mode
+    theme.addEventListener('click', () => {
+        let element = document.body;
+        element.classList.toggle('light-mode')
+    });
 };
 
 function activeSection() {
@@ -28,7 +37,6 @@ function activeSection() {
     });
 };
 
-
 function activeBtn(){
 
     sectBtn.forEach( (item) => {        
@@ -44,8 +52,6 @@ function activeBtn(){
        });
     });
 };
-
-
 
 
 pageTransitions();
